@@ -1,0 +1,47 @@
+.container{
+  background-color: #222;
+  padding: 10px;
+  h2{
+    color: #fff !important;
+  }
+  .corousel{
+    // padding: 30px;
+    .section-images{
+      display: flex !important;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .img{
+        margin-top: 10px;
+        border-radius: 10px;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+  }
+  .txts{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px !important;
+    img{
+      margin-top: 15px;
+      border-radius: 20px;
+    }
+  }
+  .text-info{
+    font-size: 20px !important;
+    
+  }
+  .coursesContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .card{
+      margin: 10px;
+    }
+  }
+}
+.pointer{
+  cursor: pointer;
+}
